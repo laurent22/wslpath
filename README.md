@@ -3,6 +3,24 @@
 	wget 'https://raw.githubusercontent.com/laurent22/wslpath/master/wslpath'
 	sudo mv wslpath /usr/bin
 
+# Usage
+
+	wslpath [-m|-u|-w|-h] NAME[:line[:col]]
+
+	Output type options:
+
+	  -w           (default) prints Windows form of NAME (C:\WINNT)
+	  -m           like -w, but with regular slashes (C:/WINNT)
+	  -u           prints Unix form of NAME (/mnt/c/winnt)
+
+	Other options:
+
+	  -h           displays usage information
+
+	If no output type is selected, the program will try to detect the form of
+	NAME and print the opposite type (eg. will print Windows form for Unix
+	path).
+
 # Features
 
 - Auto-detects path - converts to a Unix path if it is a Windows path and vice-versa.
