@@ -1,6 +1,7 @@
 # Installation
 
 	wget 'https://raw.githubusercontent.com/laurent22/wslpath/master/wslpath'
+	chmod 755 wslpath
 	sudo mv wslpath /usr/bin
 
 # Usage
