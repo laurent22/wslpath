@@ -1,3 +1,7 @@
+# wslpath
+
+wslpath - Converts Unix and Windows format paths in WSL Edit
+
 # Installation
 
 	wget 'https://raw.githubusercontent.com/laurent22/wslpath/master/wslpath'
