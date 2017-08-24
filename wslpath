@@ -1,11 +1,6 @@
 #!/usr/bin/php
 <?php
 
-// Auto-detects path - converts to a Unix path if it is a Windows path and vice-versa
-// Correctly handles symlinks
-// Correctly handles paths under lxss directory (hidden user directory under which Unix-only files and directories are located).
-// Correctly handles :line:column suffix. For example, `subl $(wslpath /mnt/d/script.js:10:2)` would open D:\script.js at line 10, column 2 in Sublime Text
-
 function usage() {
 return 'wslpath [-m|-u|-w|-h] NAME[:line[:col]]
 
