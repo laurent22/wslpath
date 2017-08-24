@@ -1,6 +1,8 @@
 #!/usr/bin/php
 <?php
 
+// Repository: https://github.com/laurent22/wslpath
+
 function usage() {
 return 'wslpath [-m|-u|-w|-h] NAME[:line[:col]]
 
