@@ -4,6 +4,8 @@ wslpath - Converts Unix and Windows format paths in WSL Edit
 
 # Installation
 
+Note: PHP is required.
+
 	wget 'https://raw.githubusercontent.com/laurent22/wslpath/master/wslpath'
 	chmod 755 wslpath
 	sudo mv wslpath /usr/bin
